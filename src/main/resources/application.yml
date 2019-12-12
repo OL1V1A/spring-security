@@ -1,7 +1,7 @@
 spring:
   #消息队列配置
   rabbitmq:
-    host: 47.98.117.161
+    host: localhost
     username: admin
     password: admin
     port: 5672
@@ -9,10 +9,10 @@ spring:
 
   #redis配置
   redis:
-    host: 47.98.117.161
+    host: localhost
     database: 0
     port: 6379
-    password: lywyjy1314
+    password: 123456
     max-active: 8
     max-idle: 8
     min-idle: 0
